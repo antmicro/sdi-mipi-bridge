@@ -1,0 +1,9 @@
+[submodule "sdi-mipi-bridge-fpga-design"]
+	path = sdi-mipi-bridge-fpga-design
+	url = ../sdi-mipi-bridge-fpga-design.git
+[submodule "sdi-mipi-bridge-hw"]
+	path = sdi-mipi-bridge-hw
+	url = ../sdi-mipi-bridge-hw.git
+[submodule "sdi-mipi-bridge-linux"]
+	path = sdi-mipi-bridge-linux
+	url = ../sdi-mipi-bridge-linux.git

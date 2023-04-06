@@ -1,0 +1,8 @@
+**Parameter**,**720p60fps**,**1080p60fps**,**1080p30fps**,**720p60fps**,**1080p60fps**,**1080p30fps**
+**TXInterface**,CSI-2,CSI-2,CSI-2,CSI-2,CSI-2,CSI-2
+**NumberofTXLanes**,2,2,2,4,4,4
+**TXLineRate**,594,1188,594,297,594,297
+**DataType**,YUV422_8,YUV422_8,YUV422_8,YUV422_8,YUV422_8,YUV422_8
+**VirtualChannel**,0,0,0,0,0,0
+**WordCount**,2560,3840,3840,2560,3840,3840
+**PixelClock[MHz]**,74.25,74.25,74.25,37.125,74.25,37.125
