@@ -45,10 +45,8 @@ popd
 ```bash
 git clone https://github.com/antmicro/sdi-mipi-bridge-linux
 pushd sdi-mipi-bridge-linux
-# git checkout master         # JNB rev. before 1.5+, data on 2 lanes
-# git checkout jnb-4lanes     # JNB rev. before 1.5+, data on 4 lanes
-# git checkout jnb_1.5-2lanes # JNB rev. 1.5+, data on 2 lanes
-# git checkout jnb_1.5-4lanes # JNB rev. 1.5+, data on 4 lanes
+git checkout tags/v1.5          # JNB rev. >=1.5, data on two MIPI CSI-2 lanes
+# git checkout tags/v1.4.x      # JNB rev. <1.5, data on two MIPI CSI-2 lanes
 ```
 
 4. Build the kernel:
@@ -113,10 +111,8 @@ popd
 ```bash
 git clone https://github.com/antmicro/sdi-mipi-bridge-linux
 pushd sdi-mipi-bridge-linux
-# git checkout master         # JNB rev. before 1.5+, data on 2 lanes
-# git checkout jnb-4lanes     # JNB rev. before 1.5+, data on 4 lanes
-# git checkout jnb_1.5-2lanes # JNB rev. 1.5+, data on 2 lanes
-# git checkout jnb_1.5-4lanes # JNB rev. 1.5+, data on 4 lanes
+git checkout tags/v1.5          # JNB rev. >=1.5, data on two MIPI CSI-2 lanes
+# git checkout tags/v1.4.x      # JNB rev. <1.5, data on two MIPI CSI-2 lanes
 ```
 
 4. Build the kernel:

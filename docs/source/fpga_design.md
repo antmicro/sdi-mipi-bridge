@@ -31,7 +31,7 @@ The design in [the FPGA design repository](https://github.com/antmicro/sdi-mipi-
 For instructions on installing and using Diamond, please refer to the [Lattice Diamond 3.12 Installation Guide for Linux](https://www.latticesemi.com/view_document?document_id=53082).
 
 Additionally, make sure that you have the sources of the CMOS to D-PHY 1.3 IP-Core installed using Diamond Clarity Designer.
-For more information, check the _Accomplishing Tasks with Clarity Designer_ section from [Clarity Designer User Manual](https://www.latticesemi.com/view_document?document_id=52649) (p. 11).
+For more information, check the _Accomplishing Tasks with Clarity Designer_ section from [Clarity Designer User Manual](https://www.latticesemi.com/view_document?document_id=52649) (p. 16).
 
 Once you have Diamond set up, install the Python prerequisites:
 
