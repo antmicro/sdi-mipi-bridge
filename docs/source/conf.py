@@ -10,6 +10,7 @@
 # Updated documentation of the configuration options is available at
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+from os import environ
 from datetime import datetime
 
 from antmicro_sphinx_utils.defaults import (
@@ -65,13 +66,18 @@ html_last_updated_fmt = today_fmt
 
 html_show_sphinx = False
 
+html_title = project
+
 (
     html_logo,
     html_theme_options,
     html_context
-) = antmicro_html(pdf_url=f"{basic_filename}.pdf")
+) = antmicro_html(
+    gh_slug=environ.get('GITHUB_REPOSITORY', 'antmicro/sdi-mipi-bridge'),
+    pdf_url=f"{basic_filename}.pdf"
+)
 
-html_title = project
+# -- Options for LaTeX output --------------------------------------------------
 
 (
     latex_elements,
