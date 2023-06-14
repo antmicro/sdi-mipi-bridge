@@ -13,6 +13,8 @@ The table below summarizes the parameters used for the supported resolutions:
 :header-rows: 1
 ```
 
+Video formats **1080p25fps** and **1080p50fps** operate on the same module parameters as **1080p30fps** and **1080p60fps** respectively.
+
 ## 1920x1080 variants
 
 The timing generator for 1080p consists of a single module whose only function is to convert the video timing signals coming from the deserializer into Line Valid (`lv`) and Frame Valid (`fv`) signals.
