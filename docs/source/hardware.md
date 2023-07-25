@@ -71,7 +71,7 @@ SDI Bridge dimensions
 ## Transmitter
 
 The transmitter is a device (typically a camera) outputting data via the SDI interface.
-It must be compatible with one of the 5 available formats:
+It must be compatible with one of the following available formats:
 
 - 720p25Hz YUV422,
 - 720p30Hz YUV422,

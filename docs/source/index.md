@@ -8,5 +8,4 @@ hardware
 fpga_design
 software
 usage
-timing_gen
 ```

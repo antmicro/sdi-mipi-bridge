@@ -11,8 +11,7 @@ The documentation includes all the information necessary to use the SDI bridge i
 * {doc}`hardware` - description of the hardware, physical connections and configurations,
 * {doc}`fpga_design` - how to generate FPGA bitstreams for all available SDI signal configurations,
 * {doc}`software` - how to build and use a Linux BSP supporting the SDI bridge for several example embedded boards,
-* {doc}`usage` - how to upload a bitstream and display the resulting video stream,
-* {doc}`timing_gen` - more detailed description of the timing generator block features.
+* {doc}`usage` - how to upload a bitstream and display the resulting video stream.
 
 (services)=
 ## Custom engineering services
