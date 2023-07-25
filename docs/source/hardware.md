@@ -27,7 +27,7 @@ SDI to MIPI CSI-2 Bridge, rev. 1.2.0
 * Two 4-lane MIPI D-PHY transceivers at 6 Gbps per PHY exposed on a 50 pin FFC connector
 * I{sup}`2`C programming and communication interface for the CrossLink FPGA and Semtech SDI deserializer
 * SPI interface for programming the CrossLink FPGA
-* 12 DIP switches for the Semtech SDI deserializer configuration pins
+* User button
 * 2 LED indicators for user purposes
 
 ### Architecture and operation
@@ -48,10 +48,10 @@ Additionally, the board exposes SPI and I{sup}`2`C interfaces.
 
 #### SDI deserializer configuration
 
-Due to the board's wide range of capabilities and possible support for various different configurations there are 12 DIP-switches for configuring the SDI deserializer.
+Due to the board's wide range of capabilities and possible support for various different configurations there are 12 resitors for configuring the SDI deserializer.
 A detailed description of their functions is available in the [Semtech GS2971A documentation](https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MD3i/kpmMkrmUWgHlbCOwdLzVohMm1SDPoVH85guEGK.KXTc).
 
-Below you can find a short description of each switch with its default setting which should be set in order to make the board work with the software/bitstream setup provided by Antmicro:
+Below you can find a short description of each signal with its default setting which should be set in order to make the board work with the software/bitstream setup provided by Antmicro:
 
 ```{csv-table}
 :file: switches.csv
@@ -64,7 +64,7 @@ Below you can find a short description of each switch with its default setting w
 :::{figure-md}
 ![SDI Bridge dimensions](img/SDI_dimensions.png)
 
-SDI Bridge dimensions
+SDI Bridge dimensions - rev.1.2.0
 :::
 
 (transmitter)=
