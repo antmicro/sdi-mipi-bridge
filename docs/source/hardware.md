@@ -64,7 +64,7 @@ Below you can find a short description of each signal with its default setting w
 :::{figure-md}
 ![SDI Bridge dimensions](img/SDI_dimensions.png)
 
-SDI Bridge dimensions - rev.1.2.0
+SDI Bridge dimensions - rev.1.3.1
 :::
 
 (transmitter)=
